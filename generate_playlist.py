@@ -23,7 +23,7 @@ channels = [
     Channel("Al Ghadeer TV (288p)", "http://63b03f7689049.streamlock.net:1935/live/2/playlist.m3u8", "https://alnasr.co/wp-content/uploads/2023/08/%D8%AA%D9%86%D8%B2%D9%8A%D9%84-2023-08-10T042326.678.jpeg"),
     Channel("Al Hujja TV (360p)", "https://livestream.almanasa.tv:8001/islamic/ch10/ch10_1080.m3u8", "https://4.bp.blogspot.com/-I79qfPxl2O0/VBidArRfM_I/AAAAAAAABgE/1iTi4fsAsXQ/s1600/%D8%A7%D9%84%D8%AD%D8%AC%D8%A9.jpeg"),
     Channel("Al Imam Ali TV (720p)", "https://stream.veo.buzz:6050/islamic/ch13/ch13_720.m3u8", "https://i1.sndcdn.com/avatars-3mtrzU5Zqf0G4BTi-RobkGw-t500x500.jpg"),
-    Channel("44kurd TV (1080p)", "https://4kurd.icdndhcp.com/hls/stream.m3u8", "https://static2.tgstat.ru/channels/_0/c5/c535da0125bf6d2d6cf11f8112cbbdce.jpg"),
+    Channel("444kurd TV (1080p)", "https://4kurd.icdndhcp.com/hls/stream.m3u8", "https://static2.tgstat.ru/channels/_0/c5/c535da0125bf6d2d6cf11f8112cbbdce.jpg"),
     Channel("4kurd TV (1080p)", "https://4kurd.icdndhcp.com/hls/stream.m3u8", "https://static2.tgstat.ru/channels/_0/c5/c535da0125bf6d2d6cf11f8112cbbdce.jpg"),
     Channel("4kurd TV (1080p)", "https://4kurd.icdndhcp.com/hls/stream.m3u8", "https://static2.tgstat.ru/channels/_0/c5/c535da0125bf6d2d6cf11f8112cbbdce.jpg"),
     Channel("4kurd TV (1080p)", "https://4kurd.icdndhcp.com/hls/stream.m3u8", "https://static2.tgstat.ru/channels/_0/c5/c535da0125bf6d2d6cf11f8112cbbdce.jpg"),

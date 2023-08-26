@@ -1,10 +1,10 @@
-name: Update Code on Playlist Change
+name: Update Code on Pull Request Merge
 
 on:
-  push:
-    branches:
-      - main  
-jobs:
+  pull_request:
+    types:
+      - closed
+ jobs:
   update-code:
     runs-on: ubuntu-latest
     steps:
@@ -13,7 +13,8 @@ jobs:
 
       - name: Update Python Code
         run: |
-         
+          # قم بكتابة الأمر الذي سيقوم بتحديث ملف البايثون
+          # على سبيل المثال: إضافة قائمة التشغيل إلى ملف البايثون
           echo "playlist = ['channel1', 'channel2']" > path/to/python/generate_playlist.py
 
       - name: Commit and Push Changes
@@ -23,3 +24,4 @@ jobs:
           git add .
           git commit -m "Update Python code with new playlist"
           git push
+

@@ -1,0 +1,25 @@
+name: Update Code on Playlist Change
+
+on:
+  push:
+    branches:
+      - main  
+jobs:
+  update-code:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Update Python Code
+        run: |
+         
+          echo "playlist = ['channel1', 'channel2']" > path/to/python/generate_playlist.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Update Python code with new playlist"
+          git push
